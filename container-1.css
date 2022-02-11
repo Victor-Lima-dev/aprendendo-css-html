@@ -1,0 +1,124 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+
+.container-1
+{
+    height: auto;
+    width: 35%;
+    margin: 2em;
+}
+
+.img
+{
+    background-color: black;
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+}
+
+.bloco-1
+{
+    
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    background-color: var(--bg-cards);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.267)
+}
+
+.bloco-1 h2
+{
+    font-size: 0.9em;
+    padding: 0.5em 0 1.5em 0 ;
+    font-weight: 100;
+}
+
+.bloco-2
+{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background-color: var(--bg-cards);
+    border-radius: 30px;
+    margin-top: 1em;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.267)
+}
+
+.map
+{
+    display: flex;
+    padding: 0.45em;
+    margin: 0.45em;
+}
+
+img
+{
+    margin-right: 1em;
+}
+
+.bloco-3
+{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1.5em;
+    background-color: var(--bg-cards);
+    border-radius: 30px;
+    margin-top: 1em;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.267);
+    text-align: center;
+}
+
+.bloco-3-dentro {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0 0 0;
+}
+
+.bloco-3-dentro span
+{
+    width: auto;
+}
+.dentro{
+    width: 33%;
+    padding: 0.5em;
+    margin: 0 1.25em;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--bg-techs);
+    color: rgb(37, 37, 37);
+    font-weight: 550;
+    
+}
+
+.bloco-4
+{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1.5em;
+    background-color: var(--bg-cards);
+    border-radius: 30px;
+    margin: 1em 0;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.267);
+}
+ul {
+    list-style-position: inside;
+    
+    
+    }
+
+   .lista
+   {
+    padding: 0.75em;
+   }
